@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modern minimal acoustic guitar, tilted 45°. Fits the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="40"
+        android:scaleX="0.86"
+        android:scaleY="0.86">
+
+        <!-- Headstock -->
+        <path
+            android:fillColor="#F2F2F2"
+            android:pathData="M50.5,22h7a1,1 0 0,1 1,1l-1,7h-7l-1,-7a1,1 0 0,1 1,-1z" />
+        <!-- Neck -->
+        <path
+            android:fillColor="#F2F2F2"
+            android:pathData="M52.4,30h3.2v26h-3.2z" />
+
+        <!-- Body: upper bout + lower bout -->
+        <path android:pathData="M44,60a10,10 0 1,0 20,0a10,10 0 1,0 -20,0z M41,73a13,13 0 1,0 26,0a13,13 0 1,0 -26,0z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="54"
+                    android:startY="50"
+                    android:endX="54"
+                    android:endY="86"
+                    android:startColor="#FFB74D"
+                    android:endColor="#F57C00" />
+            </aapt:attr>
+        </path>
+
+        <!-- Sound hole -->
+        <path
+            android:fillColor="#1C1C1E"
+            android:pathData="M49.5,63a4.5,4.5 0 1,0 9,0a4.5,4.5 0 1,0 -9,0z" />
+        <!-- Bridge -->
+        <path
+            android:fillColor="#1C1C1E"
+            android:pathData="M48.5,76.5h11v2.2h-11z" />
+
+        <!-- Strings -->
+        <path
+            android:strokeColor="#801C1C1E"
+            android:strokeWidth="0.35"
+            android:pathData="M53,24.5V77.5 M54,24.5V77.5 M55,24.5V77.5" />
+
+    </group>
+</vector>
